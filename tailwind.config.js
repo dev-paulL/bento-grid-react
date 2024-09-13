@@ -14,6 +14,7 @@ export default {
       },
       fontSize: {
         small: "1.125rem",
+        ok: "1.8rem",
         normal: "2.3rem",
         medium: "2.8rem",
         big: "4rem",
@@ -29,8 +30,8 @@ export default {
         main: "repeat(4, 1fr)",
       },
       gridTemplateRows: {
-        main:"repeat(8, 11%)"
-      }
+        main: "repeat(8,9.5rem)",
+      },
     },
   },
   plugins: [],

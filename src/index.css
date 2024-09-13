@@ -30,15 +30,16 @@
 *{
   box-sizing: border-box;
 }
+html {
+  @apply w-full
+}
 body {
-    @apply font-sans
+    @apply font-sans w-full p-4  grid place-content-center justify-center
 }
 
-#root {
-  @apply p-4
-}
+
 h2 {
-    @apply text-medium -tracking-widest
+    @apply lg:!text-medium -tracking-widest
 }
 
 h1 {
@@ -54,9 +55,13 @@ article {
 }
 
 section {
-  @apply grid grid-cols-main gap-8 grid-rows-main
+  @apply lg:grid lg:grid-cols-main gap-8 lg:grid-rows-main flex flex-col
 }
 
-img {
-   
+footer {
+  @apply text-center
+}
+
+footer a {
+  @apply underline text-purple500
 }
