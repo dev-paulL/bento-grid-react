@@ -14,6 +14,7 @@ export default {
       },
       fontSize: {
         small: "1.125rem",
+        normal: "2.2rem",
         medium: "3rem",
         big: "4rem",
       },
@@ -23,6 +24,9 @@ export default {
       fontWeight: {
         regular: 400,
         medium: 500,
+      },
+      gridTemplateColumns: {
+        main: "repeat(4, 1fr)",
       },
     },
   },

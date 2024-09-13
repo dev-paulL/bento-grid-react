@@ -27,9 +27,11 @@
         src: url(assets/fonts/static/DMSans-MediumItalic.ttf) format('truetype');
       }
 }
-
+*{
+  box-sizing: border-box;
+}
 body {
-    @apply font-sans
+    @apply font-sans p-10 min-h-screen
 }
 h2 {
     @apply text-medium -tracking-widest
@@ -44,9 +46,9 @@ h1, h2, h3 {
 }
 
 div {
-  @apply flex flex-col items-center justify-center rounded-md gap-4 px-10 py-4
+  @apply rounded-lg gap-4 py-4 flex flex-col justify-center items-center shadow-md
 }
 
-main {
-  @apply grid grid-cols-4
+section {
+  @apply grid grid-cols-main gap-8
 }
