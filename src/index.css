@@ -31,7 +31,11 @@
   box-sizing: border-box;
 }
 body {
-    @apply font-sans p-10 min-h-screen
+    @apply font-sans
+}
+
+#root {
+  @apply p-4
 }
 h2 {
     @apply text-medium -tracking-widest
@@ -45,10 +49,14 @@ h1, h2, h3 {
 
 }
 
-div {
-  @apply rounded-lg gap-4 py-4 flex flex-col justify-center items-center shadow-md
+article {
+  @apply rounded-lg gap-4 p-6 flex flex-col shadow-md 
 }
 
 section {
-  @apply grid grid-cols-main gap-8
+  @apply grid grid-cols-main gap-8 grid-rows-main
+}
+
+img {
+   
 }
