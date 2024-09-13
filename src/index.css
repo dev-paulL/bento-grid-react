@@ -36,9 +36,17 @@ h2 {
 }
 
 h1 {
-  @apply text-big
+  @apply text-big tracking-tight
 }
 h1, h2, h3 {
-  @apply font-medium
+  @apply font-medium leading-none
+
 }
 
+div {
+  @apply flex flex-col items-center justify-center rounded-md gap-4 px-10 py-4
+}
+
+main {
+  @apply grid grid-cols-4
+}
