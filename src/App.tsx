@@ -11,7 +11,7 @@ function App() {
     <main>
       <section>
         {/* MAIN article */}
-        <article className="bg-purple500 text-White col-start-2 p-8 lg:p-20 col-span-2 text-center items-center justify-center row-start-1 row-span-3">
+        <article className="bg-purple500 text-White col-start-2 p-8  col-span-2 text-center items-center justify-center row-start-1 row-span-3">
           <h1 className="lg:!text-big !text-medium">
             Social Media <span className="text-yellow500">10x</span> <em>Faster</em> with AI
           </h1>
@@ -22,7 +22,7 @@ function App() {
 
         <article className="bg-White text-Black col-start-2 row-start-4 row-span-2 overflow-clip ">
           <img src={manage} className="lg:min-w-[145%]" alt="" />
-          <h2 className="lg:!text-normal text-ok lg:w-[80%]">Manage multiple accounts and platforms.</h2>
+          <h2 className="lg:!text-normal text-ok lg:w-[90%]">Manage multiple accounts and platforms.</h2>
         </article>
 
         <article className="bg-yellow500 pb-0 text-Black col-start-3 row-start-4 row-span-2 overflow-hidden">
@@ -50,7 +50,7 @@ function App() {
           <img src={faster} alt="" className="w-[80%]" />
         </article>
 
-        <article className="bg-yellow100 text-Black row-start-1 col-start-1 row-span-3 justify-center">
+        <article className="bg-yellow100 text-Black row-start-1 col-start-1 row-span-4 justify-center">
           <h2 className="lg:w-[80%] text-normal">
             Create and schedule content{" "}
             <span className="text-purple500">
@@ -60,7 +60,7 @@ function App() {
           <img src={create} className="lg:w-[70%] w-[50%]" alt="" />
         </article>
 
-        <article className="bg-yellow500 text-Black col-start-1 row-start-4 row-span-4 lg:justify-between overflow-clip">
+        <article className="bg-yellow500 text-Black col-start-1 row-start-5 row-span-3 lg:justify-between overflow-clip">
           <h2 className="lg:w-[70%] !text-normal ">Write your content using AI.</h2>
           <img src={write} className="w-[60%] lg:w-auto " alt="" />
         </article>
