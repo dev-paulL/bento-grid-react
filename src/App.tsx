@@ -55,10 +55,10 @@ function App() {
         <article className="bg-purple500 text-White col-start-3 items-center col-span-2 lg:flex-row row-start-6 row-span-2 text-center lg:text-left">
           <img
             src="../src/assets/images/illustration-grow-followers.webp"
-            className="lg:h-full w-[80%]"
+            className="lg:h-full"
             alt=""
           />
-          <h2 className="text-normal w-[80%] lg:!text-[3.5rem]">Grow followers with non-stop content.</h2>
+          <h2 className="text-normal w-[90%] lg:!text-[3.2rem]">Grow followers with non-stop content.</h2>
         </article>
 
         <article className="bg-White text-Black col-start-2 row-start-6 row-span-2 justify-around">
@@ -87,9 +87,9 @@ function App() {
           />
         </article>
 
-        <article className="bg-yellow500 text-Black col-start-1 row-start-5 row-span-3 justify-around">
+        <article className="bg-yellow500 text-Black col-start-1 row-start-5 row-span-3 justify-between overflow-clip">
           <h2 className="lg:w-[80%] text-normal">Write your content using AI.</h2>
-          <img src="../src/assets/images/illustration-ai-content.webp" alt="" />
+          <img src="../src/assets/images/illustration-ai-content.webp" className="w-[60%] lg:w-auto"alt="" />
         </article>
       </section>
     </main>
