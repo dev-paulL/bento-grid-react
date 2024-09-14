@@ -10,7 +10,7 @@ function App() {
           </h1>
 
           <img
-            src="../src/assets/images/illustration-five-stars.webp"
+            src="assets/images/illustration-five-stars.webp"
             className="w-56"
             alt=""
           />
@@ -19,7 +19,7 @@ function App() {
 
         <article className="bg-White text-Black col-start-2 row-start-4 row-span-2 overflow-clip ">
           <img
-            src="../src/assets/images/illustration-multiple-platforms.webp"
+            src="assets/images/illustration-multiple-platforms.webp"
             className="lg:min-w-[145%]"
             alt=""
           />
@@ -33,7 +33,7 @@ function App() {
             Maintain a consistent posting schedule.
           </h2>
           <img
-            src="../src/assets/images/illustration-consistent-schedule.webp"
+            src="assets/images/illustration-consistent-schedule.webp"
             alt=""
             className="w-full"
           />
@@ -42,7 +42,7 @@ function App() {
         <article className="bg-purple100 text-center text-Black col-start-4 row-span-5 row-start-1 lg:!text-left lg:pr-0 lg:pt-10 lg:overflow-hidden gap-6 lg:gap-12">
           <h2 className="text-ok">Schedule to social media.</h2>
           <img
-            src="../src/assets/images/illustration-schedule-posts.webp"
+            src="assets/images/illustration-schedule-posts.webp"
             className="lg:max-w-[30rem] lg:self-start"
             alt=""
           />
@@ -54,7 +54,7 @@ function App() {
 
         <article className="bg-purple500 text-White col-start-3 items-center col-span-2 lg:flex-row row-start-6 row-span-2 text-center lg:text-left">
           <img
-            src="../src/assets/images/illustration-grow-followers.webp"
+            src="assets/images/illustration-grow-followers.webp"
             className="lg:h-full"
             alt=""
           />
@@ -67,7 +67,7 @@ function App() {
             audience growth
           </h2>
           <img
-            src="../src/assets/images/illustration-audience-growth.webp"
+            src="assets/images/illustration-audience-growth.webp"
             alt=""
             className="w-[80%]"
           />
@@ -81,7 +81,7 @@ function App() {
             </span>
           </h2>
           <img
-            src="../src/assets/images/illustration-create-post.webp"
+            src="assets/images/illustration-create-post.webp"
             className="w-[70%]"
             alt=""
           />
@@ -89,7 +89,7 @@ function App() {
 
         <article className="bg-yellow500 text-Black col-start-1 row-start-5 row-span-3 justify-between overflow-clip">
           <h2 className="lg:w-[80%] text-normal">Write your content using AI.</h2>
-          <img src="../src/assets/images/illustration-ai-content.webp" className="w-[60%] lg:w-auto"alt="" />
+          <img src="assets/images/illustration-ai-content.webp" className="w-[60%] lg:w-auto"alt="" />
         </article>
       </section>
     </main>
