@@ -30,11 +30,9 @@
 *{
   box-sizing: border-box;
 }
-html {
-  @apply w-full
-}
+
 body {
-    @apply font-sans w-full p-4  grid place-content-center justify-center
+    @apply font-sans w-full p-4
 }
 
 
@@ -49,17 +47,16 @@ h1, h2, h3 {
   @apply font-medium leading-none
 
 }
-
 article {
   @apply rounded-lg gap-4 p-6 flex flex-col shadow-md 
 }
 
 section {
-  @apply lg:grid lg:grid-cols-main gap-8 lg:grid-rows-main flex flex-col
+  @apply lg:grid lg:grid-cols-main gap-8 lg:grid-rows-main flex flex-col lg:w-[80%] lg:mx-auto
 }
 
 footer {
-  @apply text-center
+  @apply text-center mt-4
 }
 
 footer a {

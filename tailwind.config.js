@@ -30,7 +30,7 @@ export default {
         main: "repeat(4, 1fr)",
       },
       gridTemplateRows: {
-        main: "repeat(8,9.5rem)",
+        main: "repeat(7, 8.4rem)",
       },
     },
   },
